@@ -1,3 +1,13 @@
+//imports all as a module object
+import {Header,Nav,Main,Footer} as components from "./components";
+function render() {
+  document.querySelector("#root").innerHTML = `
+  ${Header()}
+  ${Nav()}
+  ${Main()}
+  ${Footer()}
+  `;
+}
 // add menu toggle to bars icon in nav bar
 document.querySelector(".fa-bars").addEventListener("click", () => {
   document.querySelector("nav > ul").classList.toggle("hidden--mobile");
