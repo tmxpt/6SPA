@@ -157,4 +157,6 @@ section::before{content:"Template by Tomoki";
   border:1px solid white;
   position:absolute;
   color:white;
-  background:red;}
+  background:red;
+  font-family:"Lucida Console","Lucida",sans-serif;
+  opacity:0.5;}
