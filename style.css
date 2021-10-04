@@ -159,4 +159,5 @@ section::before{content:"Template by Tomoki";
   color:white;
   background:red;
   font-family:"Lucida Console","Lucida",sans-serif;
-  opacity:0.5;}
+  opacity:0.5;
+  display:none;}
